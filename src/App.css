@@ -1,0 +1,56 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: blanchedalmond;
+}
+
+.app {
+  padding: 20px;
+}
+
+.search-box {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+
+.search-box input {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+
+.search-box button:hover {
+  background-color:white;
+}
+
+.filter-box {
+  margin-bottom: 20px;
+  background-color: white;
+}
+
+.filter-box select {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;  background-color: white;
+
+}
+
+.search-results .post-card {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 20px;
+  margin-bottom: 10px;
+}
+
+.post-card h3 {
+  margin: 0 0 10px 0;
+}
+
+.post-card p {
+  margin: 0;
+}
